@@ -7,25 +7,47 @@
     body {
       font-family: sans-serif;
       padding: 2em;
+      background-color: #f5f5f5;
+      color: #000;
+      text-align: center;
     }
+
+    .hero {
+      background-color: #000;
+      color: #fff;
+      padding: 1.5em;
+      margin-bottom: 1.5em;
+    }
+
     ul {
       list-style: none;
       padding-left: 0;
     }
+
     li {
       margin: 1em 0;
     }
+
     a {
       text-decoration: none;
-      color: #0077cc;
+      color: #00aaff;
+      display: inline-block;
+      padding: 1em 2em;
+      border: 2px solid #00aaff;
+      border-radius: 8px;
+      transition: background-color 0.3s, color 0.3s;
     }
+
     a:hover {
-      text-decoration: underline;
+      background-color: #00aaff;
+      color: #fff;
     }
   </style>
 </head>
 <body>
-  <h1>社内HTML確認ページ</h1>
+  <div class="hero">
+    <h1>ONSPOTZ カタログ</h1>
+  </div>
   <p>以下の一覧からファイルをクリックして確認できます：</p>
   <ul>
     <li><a href="SS25別注一覧.html" target="_blank">SS25別注一覧</a></li>
